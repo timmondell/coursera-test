@@ -1,0 +1,201 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*===============================================
+ My CSS Styles
+ =============================================== */
+body {
+	background: #fff;
+	box-sizing: border-box;
+	font-family: raleway; roboto; ransita; sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+#header-nav {
+	background-color: blue;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 2px solid #222;
+	margin-bottom: 0px;
+}
+
+.container {
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 20px 10px;  
+}
+
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-header {
+	padding: 0px;
+	padding-right: 20px;
+}
+
+.navbar-brand h1 {
+	font-family: 'lora', serif;
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	margin-left: 20px;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: orange;
+	border-color: navy;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: navy;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: navy;
+	border-color: orange;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: orange;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: orange;
+	border-color: navy;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: navy;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: 0;
+}
+
+.navbar #nav-list a {
+	background-color: orange;
+	opacity: .85;
+	font-weight: bold;
+	font-size: 1.2em;
+	border: 1px navy solid;
+}
+
+.navbar #nav-list a:hover {
+	background-color: orange;
+	color: #fff;
+	font-weight: bold;
+	opacity: 1;
+}
+
+/*
+.container {
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 20px 10px;  
+}
+*/
+
+#main-content {
+	min-height: 1000px;
+	background-color: navy;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#home-options {
+	padding: 10px;
+	float: left;
+}
+
+#menu {
+	font-size: 1.75em;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	color: orange;
+}
+
+.options {
+	background-color: orange;
+	padding: 10px;
+	width: 100%;
+	margin: 15px 0px;
+	border: 1px #222 solid;
+}
+
+
+.food-type {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #222;
+}
+
+p {
+	padding-top: 10px;
+}
+
+
+@media all and (min-width: 992px) {
+	
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+
+@media all and (max-width: 767px) {
+
